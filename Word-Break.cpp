@@ -9,7 +9,7 @@ public:
             return dict.find(prefix)!=dict.end();
         }
         
-        int op1=0;
+        int op1=0; 
         int op2=0;
         if(dict.find(prefix)!=dict.end()){
             op1= helper(ind+1,"",s,dict);
